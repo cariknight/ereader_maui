@@ -5,10 +5,33 @@
              x:Class="ereader.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="BackgroundColor">#ECEBE7</Color>
+            <Color x:Key="SurfaceColor">#F2EEE5</Color>
+            <Color x:Key="AccentColor">#EEE7DD</Color>
+            <Color x:Key="TextColor">#55452B</Color>
+            <Color x:Key="SecondaryTextColor">#846849</Color>
+
+            <Style TargetType="Button">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource AccentColor}"/>
+                <Setter
+                    Property="TextColor"
+                    Value="Black"/>
+                <Setter
+                    Property="CornerRadius"
+                    Value="14"/>
+                <Setter
+                    Property="Padding"
+                    Value="18,12"/>
+
+            </Style>
+            <!--
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            -->
         </ResourceDictionary>
     </Application.Resources>
 </Application>
