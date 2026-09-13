@@ -54,7 +54,7 @@ namespace ereader.Services
         public async Task<int> DeleteBookAsync(Book book)
         {
             await InitAsync();
-            return await _database.DeleteAsync(book);
+            return await _database!.DeleteAsync(book);
         }
 
         // BOOKMARKS
