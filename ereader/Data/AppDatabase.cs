@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ereader.Data
 {
-    internal class AppDatabse
+    internal class AppDatabase
     {
     }
 }

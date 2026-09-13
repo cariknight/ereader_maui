@@ -5,6 +5,7 @@
         public AppShell()
         {
             InitializeComponent();
+            //Shell.Current.GoToAsync("Views/HomePage.xaml");
         }
     }
 }
