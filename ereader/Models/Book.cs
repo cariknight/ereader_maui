@@ -14,6 +14,7 @@ namespace ereader.Models
         public string Title { get; set; } = "";
         public string Author { get; set; } = "";
         public string FilePath { get; set; } = "";
+        public string FileType { get; set; } = "";
         public string CoverPath { get; set; } = "";
         public double Progress { get; set; }
         public int CurrentPage { get; set; }
